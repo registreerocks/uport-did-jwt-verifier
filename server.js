@@ -15,7 +15,7 @@ var port = process.env.PORT || 8080;
 
 var router = express.Router();
 
-router.get('/validateJWT', function (req, res) {
+router.post('/validateJWT', function (req, res) {
     if ('jwt' in req.body && 'did' in req.body) {
         didJWT.verifyJWT(req.body.jwt, {
             audience: req.body.did,
