@@ -1,0 +1,25 @@
+{
+  "name": "uport-did-jwt-verifier",
+  "version": "0.0.1",
+  "description": "Simple Node/express API to enable validation of Uport JWT's generated with ES256K from any HTTPS interface.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/registreerocks/uport-did-jwt-verifier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/registreerocks/uport-did-jwt-verifier/issues"
+  },
+  "homepage": "https://github.com/registreerocks/uport-did-jwt-verifier#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
